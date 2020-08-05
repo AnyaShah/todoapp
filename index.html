@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <form name="form" class="margin">
+    
+        <div class="display">
+          <img src="todo.png" alt=""> Todo App
+        </div>
+        <div class="container">
+    
+          <div class="buttons ">
+    
+            <input type="text" placeholder="Enter Text Here" name="displayResult" id="todo-item" />
+    
+            <div class="row">
+    
+              <input type="button" class="color" value="Add" onClick="addTodo()">
+         
+              <input type="button" class="color" value="Delete All" onClick="delAll()">
+     
+    
+            </div>
+    
+          </div>
+    
+    
+          <div>
+            <ul id="list">
+            </ul>
+          </div>
+    
+    
+        </div>
+    
+        
+    
+      </form>
+    </body>
+    <script src="app.js"></script>
+</html>

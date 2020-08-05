@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body, html {
+    
+    
+    background-image: url("body.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.margin{
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+#list{
+padding-left: 55px;
+}
+.container {
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;   
+    padding-bottom: 20px;
+    width: 820px;
+    background: white;
+    overflow: auto;
+
+    
+}
+
+
+.display {
+    margin: auto;
+    width: 820;
+    height: 60px;
+    padding: 50px 0;
+    background: rgb(215,111,26);
+    background: rgb(196,89,0);
+    background: radial-gradient(circle, rgba(196,89,0,0.9108018207282913) 44%, rgba(255,255,255,0.7035189075630253) 100%);
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.buttons {
+    padding: 20px 20px 0 0;
+    margin-bottom: 70px;
+}
+.row {
+    width: 380px;
+    float: right;
+    padding-top: 0;
+
+    
+
+}
+input[type=button] {
+    margin-left: 5px;
+    width: 180px;
+    height: 60px;
+    box-sizing: border-box;
+    background: #ecedef;
+    border: none;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    color: blue;
+    cursor: pointer;
+    box-shadow: 0 14px 10px 0 burlywood, 0 6px 10px 0 black;
+    outline: none;
+
+    
+}
+input[type=text] {
+    width: 370px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    color: rgb(250, 182, 57);
+    text-align: left;
+    font-size: 30px;
+    line-height: 60px;
+    margin: 0 25px;
+    
+}
+.color {
+    background: rgb(215,111,26);
+    background: linear-gradient(346deg, rgba(215,111,26,0.9108018207282913) 44%, rgba(255,255,255,0.7035189075630253) 100%) !important;
+    color: #ffffff !important;
+    
+}
+
+.btn{
+height: 55px;
+width: 55px;
+
+}
+
+ul{
+    font-size: 40px;
+    list-style-type: square;
+}
+
+
+li{
+    padding-top: 20px;
+    color:orange;
+    padding-right: 30px;
+
+
+    
+}
+
+li>img{
+    float: right;
+    padding-left: 10px;
+
+}
